@@ -1,0 +1,4 @@
+//Performance Hooks
+
+1. useCallback and useMemo
+2. Use Ref - DOM references , mutable values , instance variables

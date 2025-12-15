@@ -1,0 +1,8 @@
+Routing for Single Page Applications
+
+<Browser Router>
+<Routes>
+<Route>
+<Route>
+</Routes>
+</Browser Router>

@@ -1,0 +1,23 @@
+
+.cardd{
+    border: solid;
+    padding: 20px;
+    margin: 5px;
+    display: flex;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+
+}
+.parent{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    padding: auto;
+    width: 500px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+.cards{
+    margin-bottom: 20px;
+}

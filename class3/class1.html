@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class laptop{
+            constructor(brand,model){
+                this.brand=brand;
+                this.model=model;
+            }
+            info(){
+              //  return "I have a laptop of "+ this.brand + "and" + this.model;
+              return `I have a laptop of ${this.brand} and model ${this.model}`;
+            }
+        }
+            class AIlaptop extends laptop{
+                constructor(brand,model,processor){
+                    super(brand,model);
+                    this.processor = processor;
+                }
+                newinfo(){
+                    return this.info() + "<br>" + `The processor of my AI laptop is ${this.processor}`;
+                }
+
+            
+        }
+        //const laptop1 = new laptop("Asus","15pro");
+        //document.write(laptop1.brand+ "<br>");
+        //document.write(laptop1.model+ "<br>");
+        //document.write(laptop1.info());
+        const alaptop1 = new AIlaptop("ASUS", "15pro","oled");
+        document.write(alaptop1.newinfo());
+    </script>
+</body>
+</html>

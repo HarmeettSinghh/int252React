@@ -1,0 +1,36 @@
+.card{
+  border: 1px solid hsl(0,0%,80%);
+  border-radius: 10x;
+  box-shadow: 5px 5px 5px black;
+
+  padding: 20px;
+  margin: 10px;
+  max-width: 250px;
+  display: inline-block;
+
+}
+.card .CardImage{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10 px;
+}
+.addToCart{
+  background-color: rgb(143, 205, 143);
+  padding: 20px;
+  border-radius: 10%;
+  margin: 10px;
+
+}
+.removeFromCart{
+    background-color: red;
+  padding: 20px;
+  border-radius: 10%;
+  margin: 10px;
+}
+.resetCart{
+   background-color: rgb(146, 146, 209);
+  padding: 20px;
+  border-radius: 10%;
+  margin: 10px;
+}

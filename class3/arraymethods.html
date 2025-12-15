@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       //array methods
+        //1.concat-merges two or more arrays
+        //2.filter-
+        //3.forEach
+        //4.indexOf
+        //5.reduce()
+        //6.every()
+        //7.find()
+        //8.Array.from()
+        //9.map() -- creates a new array , similar to for each but creates an array instead returning the value
+        //10.reverse()
+        
+        let arr1 = [1,2,3,4];
+        let arr2 = [6, 7, 8, 9, 10];
+        let res = arr1.concat(arr2)
+        document.write(res);
+        let arr3 = [2,4,6,8,10];
+        let res1 = arr3.every(n=>n%2==0);
+        document.write(res1 + "<br>");
+        let filterres = arr3.filter(n=>n>=5);
+        document.write(filterres + "<br>");
+        document.write(arr1.concat(filterres) + "<br>");
+        arr1.forEach((value)=>{
+            value+=2;
+            document.write(value+" ");
+        })
+        document.write("<br>"+arr1+"<br>");
+        document.write(arr1.indexOf(4));
+        let res6= arr1.map(n =>n*2);
+        document.write("<br>" +  res6 + "<br>");
+        document.write(arr1.reverse()+"<br>");
+        let res11 =arr1.reduce((add,n)=> add+n,0);
+        document.write(res11+"<br>");
+
+
+        //Questions;
+        //Filter students who passed (marks >50);
+        //Create a new array of marks after adding 5 bonus marks
+        //find the first student who scored more than 90;
+        //calculate total marks of all the student
+        //print congratulations message for every students
+        let students = [
+            {
+                name : "Harsh" , age:24, marks:80
+            },
+            {
+                name : "Raj" , age:12, marks:32
+            },
+            {
+                name : "Ankit" , age:21, marks:40
+            },
+            {
+                name : "Komal" , age:21, marks:50
+            },
+            {
+                name : "Arun" , age:21, marks:95
+            }
+        ]
+        let ans1 = students.filter(students=>students.marks>=50);
+        document.write("Students with greater than 50 marks who passed: "+ "<br>"+ans1);
+        let bonus = student.map(student=>student.marks+=5);
+        let topper = student.find(student=>student.marks>90);
+        
+
+    </script>
+</body>
+</html>

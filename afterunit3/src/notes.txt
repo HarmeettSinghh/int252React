@@ -1,0 +1,15 @@
+https methods , fetch() --> 1.Get 2.post 3.put 4.delete
+promise methods in fetch
+then() , catch(), finally()
+.json for data conversion in fetch
+will go to catch if network issue or server issue
+
+post - THEN --- RESPONSE MESSAGE ,  CATCH --ERROR MESSAGE
+
+netqork and server error catch handls directly
+
+Task----
+userID : 
+Title: 
+Submit Data 
+
